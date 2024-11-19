@@ -1,0 +1,2 @@
+SELECT lecturer
+FROM courses;
