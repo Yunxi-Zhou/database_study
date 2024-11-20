@@ -16,7 +16,7 @@
 -- INSERT INTO users(names,levels,mail) VALUES('Alicia',9,'a@b.com');
 -- INSERT INTO users(levels,names) VALUES(20,'Dafni');
 -- SELECT * FROM users;
--- 2.2
+-- -- 2.2
 -- INSERT INTO users VALUES(12,'Eva',13,'e@b.com');
 -- -- Will not work, 'uid' must be generated
 -- SELECT * FROM users;
