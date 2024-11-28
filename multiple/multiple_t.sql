@@ -47,12 +47,14 @@
 -- FROM courses2 C 
 -- RIGHT JOIN instructors I ON C.cid = I.cid;
 
-SELECT *
-FROM courses2 C RIGHT JOIN 
-    instructors I ON C.cid > I.cid
+-- SELECT *
+-- FROM courses2 C RIGHT JOIN 
+--     instructors I ON C.cid > I.cid
 
-UNION
+-- UNION
 
-SELECT *
-FROM courses2 C LEFT JOIN
-    instructors I ON C.cid > I.cid;
+-- SELECT *
+-- FROM courses2 C LEFT JOIN
+--     instructors I ON C.cid > I.cid;
+
+SELECT * FROM instructors
