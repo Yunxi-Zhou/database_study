@@ -78,3 +78,12 @@ CREATE TABLE person
     generation INT, salary DECIMAL
 );
 
+-- add entity 'rank'
+CREATE TABLE person
+(
+    uid INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    name TEXT NOT NULL,
+    generation DECIMAL, rank INT,
+    CHECK((salary IS NULL AND rank IS NULL) OR
+        (salary IS NOT NULL AND rank IS NOT NULL))
+);
