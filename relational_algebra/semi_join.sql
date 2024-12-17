@@ -1,0 +1,3 @@
+-- A special type of joins: The semi-joins
+-- expression e1 ⊗condition c expression e2 (with ⊗ a semi-join operator (⋉ or ⋊))
+-- Semi-joins and SQL: Implement IN subqueries(and equivalent joins)
